@@ -123,7 +123,8 @@ function renderCharMenu() {
     const bars = Object.entries(c.stats).map(([k,v]) =>
       `<div class="cbar-row">
         <div class="cbar-lbl">${k}</div>
-        <div class="cbar-bg"><div class="cbar-fill" style="width:${v*20}%;background:${c.color}66"></div></div>
+        <div class="cbar-bg"><div class="cbar-fill" style="width:${v*20}%;background:${c.color}"></div></div>
+        <div class="cbar-val">${v}</div>
       </div>`
     ).join('');
     const saberEl = isJedi
