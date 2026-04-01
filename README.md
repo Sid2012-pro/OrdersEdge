@@ -15,3 +15,8 @@ Clone Commanders
 HOW TO OPEN UP THE GAME?
 
 go back to the project page and click demo to get a link to an github - pages website ,that website holds the game.
+
+CONTROLS
+WASD/Arrow Keys for movement
+Space/J for main attack
+F for force push/deflect (only for Jedi)
